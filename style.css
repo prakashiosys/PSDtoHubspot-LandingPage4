@@ -20,8 +20,7 @@ html,body {
   background-repeat: no-repeat;
 }
 .head {
-  background-color: black;
-  opacity: .7;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .main {
   display: flex;
@@ -31,7 +30,7 @@ html,body {
   width: 100%;
 }
 .header-content {
-	padding-bottom: 200px;
+	padding-bottom: 317px;
 	max-width: 630px;
 }
 .header-content h1 {
@@ -54,6 +53,9 @@ html,body {
 	border-radius: 3px;
 	background-color: #fafafa;
 	max-width: 470px;
+  position: absolute;
+  top: 0;
+  right: 100px;
 }
 .header-form .form-title {
   text-align: center;
@@ -300,11 +302,10 @@ background-image: url(group-5.png);
 	color: #ffffff;
 	opacity: .5;
 }
-@media screen and (max-width:1024px) and (min-width:768px) {
+@media screen and (max-width:1180px) and (min-width:768px) {
 	.wrapper {
 		padding:0 40px
 	}
-
 	.header-content {
     padding-bottom: 200px;
     max-width: 100%;
