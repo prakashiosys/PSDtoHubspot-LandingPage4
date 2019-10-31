@@ -1,11 +1,18 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: open sans;
 	box-sizing: border-box;
 }
 html,body {
 	width: 100%;
+	margin: 0;
+    padding:0;
+    font-size: 16px ;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    width:100%;
+    background: #fff ;
+    font-family: 'Open Sans';
 }
 .wrapper {
   	max-width: calc(1440px - 270px);
@@ -30,7 +37,7 @@ html,body {
   	width: 100%;
 }
 .header-content {
-	padding-bottom: 317px;
+	padding-bottom: 303.5px;
 	max-width: 630px;
 }
 .header-content h1 {
@@ -67,20 +74,29 @@ html,body {
 }
 .form-section p {
 	display: block;
-  	font-family: Open Sans;
   	font-size: 16px;
   	font-weight: bold;
 }
 .header-form button {
-	display: block;
-  	margin: 0 auto;
-  	padding: 18px 40px;
-  	margin-top: 40px;
-  	margin-bottom: 52px;
- 	background:#11aaff;
-  	font-size: 16px;
-  	font-weight: 800;
-  	color: #ffffff;
+	font-family: 'open Sans';
+    background: #11aaff;
+    outline: none;
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+    display: block;
+    margin: 0 auto;
+    padding: 18px 40px;
+    margin-top: 40px;
+    margin-bottom: 52px;
+}
+button:hover {
+    box-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
 }
 .blank-border  {
   	background:#11aaff;
@@ -93,9 +109,8 @@ html,body {
 	padding-top: 40px;
 	padding-bottom: 10px;
 }
-.form-section input[type="text"]
-{
-  	width: 415px;
+.form-section input[type="text"] {
+  	width: 390px;
   	border: none;
   	outline: none;
   	padding: 15px 0;
@@ -115,7 +130,6 @@ html,body {
 	margin: 0 auto;
 }
 .section-one-content h3 {
-	font-family: OpenSans;
   	font-size: 16px;
   	font-weight: 300;
   	line-height: 1.63;
@@ -124,7 +138,6 @@ html,body {
   	padding-top: 34px;
 }
 .section-one-content h4 {
-	font-family: OpenSans;
   	font-size: 28px;
   	max-width: 570px;
   	font-weight: bold;
@@ -141,7 +154,6 @@ html,body {
 }
 .section-one-content p {
 	max-width: 570px;
-	font-family: OpenSans;
   	font-size: 16px;
   	font-weight: 300;
   	line-height: 1.7;
@@ -151,16 +163,18 @@ html,body {
   	text-align: justify;
 }
 .section-one-content button {
-	border:  2px solid #11aaff;
-  	background-color: #11aaff;
+	font-family: 'open Sans';
+	background-color: #11aaff;
+	font-size: 16px;
+	font-weight: 300;
+	color: #ffffff;
+	-webkit-appearance: none;
   	outline: none;
+  	border: none;
+  	/*box-shadow: none;*/
+  	cursor: pointer;
   	padding: 20px 40px;
-  	font-family: Open Sans;
-  	font-size: 16px;
-  	font-weight: 300;
-  	line-height: 1;
-  	text-align: left;
-  	color: #ffffff;
+  	transition: all .5s;
 }
 .section-one-pic img{
 	width: 100%;
@@ -178,7 +192,6 @@ html,body {
 }
 .section-two-content h5 {
   	max-width: 570px;
-  	font-family: Open Sans;
   	font-size: 30px;
   	font-weight: bold;
   	line-height: 1.33;
@@ -187,7 +200,6 @@ html,body {
 }
 .section-two-content p {
   	max-width: 570px;
-  	font-family: Open Sans;
   	font-size: 16px;
   	font-weight: 300;
   	line-height: 1.7;
@@ -215,7 +227,6 @@ html,body {
 .section-three-content p {
   	margin: 0 auto;  
   	max-width: 570px;  
-  	font-family: Open Sans;
   	font-size: 30px;
   	font-weight: bold;
   	line-height: 1.33;
@@ -224,16 +235,22 @@ html,body {
   	padding-bottom: 45px;
 }
 .section-three-content button {
-  	border:  2px solid #11aaff;
+	font-family: 'open Sans';
+  	/*border:  2px solid #11aaff;*/
   	background-color: #11aaff;
   	outline: none;
   	padding: 20px 40px;
-  	font-family: Open Sans;
   	font-size: 16px;
   	font-weight: 800;
   	line-height: 1;
   	text-align: left;
   	color: #ffffff;
+    margin: 0 auto;
+    padding: 18px 40px;
+    -webkit-appearance: none;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
 }
 /*section-four*/
 .section-four {
@@ -245,7 +262,6 @@ html,body {
   	padding-bottom: 40px;
 }
 .section-four-content p {
-  	font-family: Open Sans;
   	font-size: 22px;
   	font-weight: 600;
   	text-align: center;
@@ -261,7 +277,7 @@ html,body {
   	line-height: 1;
   	color: #a9a9a9;
 }
-.section-four-txt button {
+.section-four-txt .btn {
   	border: solid 2px #11aaff;
   	background-color: #11aaff;
   	font-size: 16px;
@@ -272,6 +288,10 @@ html,body {
   	border:none;
   	padding: 20px 40px;
   	margin-left: 30px;
+    -webkit-appearance: none;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
 }
 /*footer section*/
 .footer {
@@ -296,7 +316,6 @@ html,body {
 }
 .footer-txt {
   	padding-top:30px ;
-  	font-family: Open Sans;
   	font-size: 16px;
   	font-weight: 300;
   	line-height: 1;
