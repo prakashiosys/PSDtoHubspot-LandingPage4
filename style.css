@@ -7,7 +7,7 @@ html,body {
 	width: 100%;
 	margin: 0;
     padding:0;
-    font-size: 16px ;
+    font-size: 16px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
     width:100%;
@@ -151,6 +151,7 @@ button:hover {
 	max-width: 130px;
   	background-color: #11aaff;
  	padding: 1.5px; 
+ 	border: none;
 }
 .section-one-content p {
 	max-width: 570px;
@@ -383,9 +384,12 @@ button:hover {
 	.header-form {
 		display: none;
 	} 
+	.header-content {
+    	padding-bottom: 100px;
+	}
 	.header-content h1 {
     	color: #fff;
-    	padding-top: 177px;
+    	padding-top: 100px;
     	text-align: center;
 	}
 	.header-content p {
@@ -401,8 +405,8 @@ button:hover {
     	justify-items: center;
 	}
 	.section-one-content {
-    	padding-top: 100px;
-    	padding-bottom: 100px;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
     	display: grid;
     	grid-template-rows: 1fr;
   		grid-template-columns: none;
@@ -412,13 +416,19 @@ button:hover {
     	margin: 0 auto;
     	grid-row-gap: 20px;
 	}
+	.section-one-content h3 {
+    	padding-top: 0px; 
+	}
+	.section-one-content p {
+		padding: 20px 0;
+	}
 	.section-one-content button {
 		display: block;
 		margin: 0 auto;
 	}
 	.section-two-content {
-    	padding-top: 100px;
-    	padding-bottom: 100px;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
     	display: grid;
     	grid-template-rows: 1fr;
     	grid-template-columns: none;
@@ -427,12 +437,11 @@ button:hover {
     	grid-column-gap: 5%;
     	margin: 0 auto;
 	}
-	.section-four-txt button {
-		margin: 0px;
-
+	.section-four-txt .btn {
+		margin-left: 0px;
 	}
 	.section-four-txt input[type="text"] {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 }
 
